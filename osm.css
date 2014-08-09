@@ -1,0 +1,9 @@
+* {font-family: Liberation Sans, Arial, sans-serif}
+pre {font-family: Liberation Mono, Courier New, monospace}
+
+th, td {text-align: left; border: 1px solid grey}
+table {border-collapse: collapse}
+
+td.id, td.uid, td.version, td.changeset, td.coord {text-align: right}
+
+#josm {left: 10px; right: 24px; height: 20px; border: none}
