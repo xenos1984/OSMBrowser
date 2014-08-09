@@ -49,6 +49,11 @@ abstract class Element
 		return $this->user;
 	}
 
+	public function getMeta()
+	{
+		return array('id' => $this->id, 'version' => $this->version, 'changeset' => $this->changeset, 'timestamp' => $this->timestamp, 'uid' => $this->uid, 'user' => $this->user);
+	}
+
 	public function getTags()
 	{
 		return $this->tags;

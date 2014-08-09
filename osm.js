@@ -74,7 +74,7 @@ function init()
 	if(osmdata)
 	{
 		var losm = new OpenLayers.Layer.Vector("OSM Data", {
-			style: {strokeColor: "#0000ff", strokeWidth: 2}
+			style: {strokeColor: "#0000ff", strokeWidth: 2, fillColor: "#000080", fillOpacity: 0.5, pointRadius: 7.5, fontColor: "#000080"}
 		});
 		losm.events.register("featuresadded", losm, setExtent);
 		losm.addFeatures(geojson.read(osmdata));
